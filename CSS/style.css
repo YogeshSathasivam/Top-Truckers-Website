@@ -1,0 +1,792 @@
+/* Font*/
+@font-face {
+    font-family: CodaCaption-ExtraBold;
+    src: url(../fonts/CodaCaption-ExtraBold.ttf);
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: CodaCaption-ExtraBold;
+}
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+/* body */
+body{
+    margin: 0;
+}
+.uni-padding{
+    padding:0 7%
+}
+
+/* topbar */
+#topbar{
+    background-color: #576574;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    overflow: auto;
+}
+#tollfree{
+    text-decoration: none;
+    float: left;
+    color: #fdfdfd;
+    margin: 0%;
+    margin-top: 5px;
+}
+#social-icons{
+    float: right;
+}
+.fa-brands{
+    background-color: #fdfdfd;
+    color: #576574;
+    padding: 7px;
+    border-radius: 50%;
+}
+
+/*logobar*/
+#logobar{
+    background-color: #222f3e;
+    overflow: auto;
+}
+#logobar img{
+    width: 100px;
+    margin: 10px;
+    
+}
+
+/*menubar*/
+#navbar{
+    background-color: #ee5253;
+}
+#navbar ul li{
+    display: inline-block;
+    padding: 18px 0px;
+    padding-right: 35px;
+}
+#navbar ul{
+    margin: 0;
+    padding: 0%;
+}
+#navbar ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/*Banner*/
+#banner{
+    background-image: url(../images/banner.jpg);
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+}
+#banner h1{
+    font-size: 40px;
+    margin: 0;
+    text-align: center;
+}
+#banner h4{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 5px;
+    font-size: 30px;
+}
+#banner h3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0%;
+    font-size: 25px;
+}
+#banner p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+    text-align: center;
+}
+
+/*Why Us*/
+#whyus{
+    overflow: auto;
+    margin-bottom: 30px;
+}
+.red-heading{
+    color: #ee5253;
+    text-align: center;
+    font-size: 35px;
+    margin: 30px;
+}
+.section33{
+    width: 33.33%;
+    float: left;
+    text-align: center;
+    padding: 0px 50px 0px 50px;
+    box-sizing: border-box;
+    overflow: auto;
+}
+.section33 h2{
+    color: #ee5253;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.section33 p{
+    text-align: center;
+    color: #363636;
+    margin: 10px;
+    font-size: 16px;
+}
+#reviews-button{
+    text-align: center;
+}
+#reviews-button a{
+    text-decoration: underline;
+    color: #ee5253;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* Reviews */
+#client-names h2{
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#client-names p{
+    font-family: 'Times New Roman', Times, serif;
+}
+#Reviews{
+    text-decoration: underline;
+    text-underline-offset: 10px;
+}
+
+/* Contact */
+#contactcontainer{
+    background-color: #ee5253;
+    color: white;
+    overflow: auto;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+.section70{
+    width: 70%;
+    float: left;
+}
+.section70 p{
+    font-size: 18px;
+}
+.section30{
+    width: 30%;
+    float: left;
+    text-align: center;
+    padding-top: 70px;
+}
+#contact-btn{
+    background-color: white;
+    color: #ee5253;
+    padding: 15px 50px;
+    text-decoration: none;
+    border-radius: 15px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Services-Clients */
+#clients h2{
+    color: #ee5253;
+    text-align: center;
+    text-decoration: underline;
+}
+#clients img{
+    width: 100px;
+    margin: 10px;
+    align-items: center;
+}
+
+/* Services */
+#client-names h2{
+    color: #ee5253;
+    font-size: 18px;
+    text-align: center;
+   font-weight: bold;
+   font-family: CodaCaption-ExtraBold;
+}
+
+/* About Section */
+#about h2{
+    color: #ee5253;
+    text-align: center;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+}
+#about-content{
+    text-align: justify;
+}
+.section33-1{
+    width: 33.33%;
+    float: left;
+    text-align: center;
+    padding: 20px 50px 20px 50px;
+    box-sizing: border-box;
+}
+.section33-1 h2{
+    color: #ee5253;
+    font-size: 18px;
+    text-align: center;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+}
+.section33-1 p{
+    color: #222f3e;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+}
+.section33-1 a{
+    text-decoration: none;
+    color: #ee5253;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* Contact Us Page */
+#new{
+  margin: 0;
+  box-sizing: border-box;
+  outline: none;
+  background-color: white;
+  padding:0 7%;
+  margin: 10px auto 10px auto;
+  padding: 40px;
+  padding-top: 0px;
+  box-sizing: border-box;
+}
+.wrapper{
+  align-items: center;
+  justify-content: center;
+  max-width: 1000px;
+  width: 90%;
+  background: #fff;
+  padding: 25px;
+  border-radius: 15px;
+}
+#fonm-content{
+    text-align: center;
+    color: #222f3e;
+}
+
+.wrapper h2{
+  text-align: center;
+  text-decoration: underline;
+  text-underline-offset: 10px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: #ee5253;
+  font-size: 20px;
+}
+#fonm-content{
+    text-align: center;
+    color: #363636;
+}
+.wrapper p{
+    text-align: left;
+    color: #222f3e;
+}
+
+.wrapper .input_field{
+  margin-bottom: 10px;
+}
+
+.wrapper .input_field input[type="text"],
+.wrapper textarea{
+  border: 1px solid #e0e0e0;
+  width: 100%;
+  padding: 20px;
+}
+
+.wrapper textarea{
+  resize: none;
+  height: 80px;
+}
+
+.wrapper .btn input[type="submit"]{
+  border: 0px;
+  margin-top: 15px;
+  padding: 10px;
+  text-align: center;
+  width: 100%;
+  background: #ee5253;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-weight: bold;
+  border-radius: 25px;
+  cursor: pointer;
+}
+.wrapper .btn input[type="submit"]:hover{
+    background-color: #222f3e;
+}
+
+#error_message{
+  margin-bottom: 18px;
+  background: #ee5253;
+  color: white;
+  padding: 0px;
+  text-align: center;
+  font-size: 14px;
+}
+  
+/* footer */
+#imp-link{
+    background-color: #576574;
+    color: white;
+    overflow: auto;
+}
+.div33{
+    width: 33.3%;
+    float: left;
+    padding: 25px 50px;
+    box-sizing: border-box;
+}
+.div33 h3{
+    color: #ee5253;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    text-decoration-thickness: 2px;
+    font-weight: normal;
+}
+#footer-menu{
+    list-style-type: none;
+    padding: 0;
+}
+#footer-menu ul li{
+    padding-bottom: 10px;
+}
+#footer-menu li a{
+    text-decoration: none;
+    color: white;
+}
+#copyright{
+    background-color: #222f3e;
+    text-align: center;
+    color: #cbcbcb;
+    padding: 10px;
+}
+
+/* Responsiveness */
+/* ipad pro - 1024*1366 */
+@media (max-width: 1024px){
+    #banner h1{
+        font-size: 30px;
+        margin: 0;
+        text-align: center;
+    }
+    #banner h4{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        margin: 5px;
+        font-size: 20px;
+    }
+    #banner h3{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        margin: 0%;
+        font-size: 22px;
+    }
+    #banner p{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 18px;
+        text-align: center;
+    }
+    .red-heading{
+        color: #ee5253;
+        text-align: center;
+        font-size: 25px;
+        margin: 30px;
+    }
+    .section33{
+        width: 33.33%;
+        float: left;
+        text-align: center;
+        padding: 0px 25px 0px 25px;
+        box-sizing: border-box;
+        overflow: auto;
+    }
+    .section33 img{
+        width: 175px;
+    }
+    .section33 h2{
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .section33 p{
+        text-align: center;
+        color: #363636;
+        margin: 10px;
+        font-size: 14px;
+    }
+    #clients h2{
+        color: #ee5253;
+        text-align: center;
+        font-size: 20px;
+        text-decoration: underline;
+    }
+    #clients img{
+        width: 75px;
+        margin: 10px;
+        align-items: center;
+    }
+    .section33-1{
+        width: 33.33%;
+        float: left;
+        text-align: center;
+        padding: 20px 25px 20px 25px;
+        box-sizing: border-box;
+    }
+    .section33-1 img{
+        width: 175px;
+    }
+    .section33-1 h2{
+        color: #ee5253;
+        font-size: 18px;
+        text-align: center;
+        text-decoration: underline;
+        text-underline-offset: 10px;
+    }
+    .section33-1 p{
+        text-align: center;
+        color: #363636;
+        margin: 10px;
+        font-size: 16px;
+    }
+    .div33{
+        width: 33.3%;
+        float: left;
+        padding: 15px 25px;
+        box-sizing: border-box;
+    }
+    .div33 h3{
+        color: #ee5253;
+        text-decoration: underline;
+        text-underline-offset: 10px;
+        text-decoration-thickness: 2px;
+        font-weight: normal;
+    }
+}
+
+/* ipad - 768*1024 */
+@media (max-width: 768px){
+    .uni-padding{
+        padding:0 5%
+    }
+    #banner h1{
+        font-size: 25px;
+        margin: 0;
+        text-align: center;
+    }
+    #banner h4{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        margin: 5px;
+        font-size: 18px;
+    }
+    #banner h3{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        margin: 0%;
+        font-size: 20px;
+    }
+    #banner p{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 16px;
+        text-align: center;
+    }
+    .red-heading{
+        color: #ee5253;
+        text-align: center;
+        font-size: 25px;
+        margin: 30px;
+    }
+    .section33{
+        width: 33.33%;
+        float: left;
+        text-align: center;
+        padding: 0px 25px 0px 25px;
+        box-sizing: border-box;
+        overflow: auto;
+    }
+    .section33 img{
+        width: 150px;
+    }
+    .section33 h2{
+        font-size: 14px;
+        font-weight: bold;
+    }
+    .section33 p{
+        text-align: center;
+        color: #363636;
+        margin: 10px;
+        font-size: 12px;
+    }
+    .section70 h2{
+        font-size: 22px;
+    }
+    .section70 p{
+        font-size: 14px;
+    }
+    #contact-btn {
+        padding: 10px 20px;
+        border-radius: 10px;
+    }
+    #clients h2{
+        color: #ee5253;
+        text-align: center;
+        font-size: 16px;
+        text-decoration: underline;
+    }
+    #clients img{
+        width: 55px;
+        margin: 10px;
+        align-items: center;
+    }
+    .section33-1{
+        width: 33.33%;
+        float: left;
+        text-align: center;
+        padding: 20px 25px 20px 25px;
+        box-sizing: border-box;
+    }
+    .section33-1 img{
+        width: 150px;
+    }
+    .section33-1 h2{
+        color: #ee5253;
+        font-size: 16px;
+        text-align: center;
+        text-decoration: underline;
+        text-underline-offset: 10px;
+    }
+    .section33-1 p{
+        text-align: center;
+        color: #363636;
+        margin: 10px;
+        font-size: 14px;
+    }
+    #reviews-button{
+        text-align: center;
+        margin-right: 200px;
+    }
+    .div33{
+        width: 33.3%;
+        float: left;
+        padding: 10px 25px;
+        box-sizing: border-box;
+    }
+    .div33 h3{
+        color: #ee5253;
+        text-decoration: underline;
+        text-underline-offset: 10px;
+        text-decoration-thickness: 2px;
+        font-weight: normal;
+    }
+    .div33 p{
+        font-size: 14px;
+    }
+    #footer-menu li a{
+        text-decoration: none;
+        color: white;
+        font-size: 14px;
+    }
+}
+
+/* mobile width 500px */
+@media (max-width: 500px){
+    .uni-padding{
+        padding:0 5%
+    }
+    #logobar{
+        text-align: center;
+    }
+    #banner{
+        height: 350px;
+    }
+    #banner h1{
+        font-size: 12px;
+        margin: 0;
+        text-align: center;
+    }
+    #banner h4{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        margin: 5px;
+        font-size: 8px;
+    }
+    #banner h3{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        margin: 0%;
+        font-size: 10px;
+    }
+    #banner p{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 10px;
+        text-align: center;
+    }
+    .red-heading{
+        color: #ee5253;
+        text-align: center;
+        font-size: 20px;
+        margin: 15px;
+    }
+    .section33, .section70, .section30{
+        width: 100%;
+    }
+    #contactcontainer {
+        background-color: #ee5253;
+        color: white;
+        overflow: auto;
+        padding-top: 5px;
+        padding-bottom: 20px;
+    }
+    .section70 h2 {
+        text-align: center;
+        font-size: 16px;
+        margin: 10px 0px 10px 0px;
+    }
+    .section70 p {
+        font-size: 12px;
+        text-align: center;
+    }
+    #contact-btn {
+        padding: 8px 20px;
+        border-radius: 10px;
+        font-size: 14px;
+    }
+    .section30{
+        padding-top: 10px;
+    }
+    #reviews-button{
+        text-align: center;
+    }
+    #review-button{
+        display: inline-block;
+    }
+    #reviews-button a {
+        text-decoration: underline;
+        color: #ee5253;
+        font-size: 12px;
+        font-weight: bold;
+        cursor: pointer;
+        text-align: center;
+        display: inline-block;
+    }
+    #clients h2{
+        color: #ee5253;
+        text-align: center;
+        font-size: 16px;
+        text-decoration: underline;
+    }
+    #clients img{
+        width: 60px;
+        margin: 10px;
+    }
+    .div33{
+        width: 33.3%;
+        float: left;
+        padding: 5px 5px;
+        box-sizing: border-box;
+    }
+    .div33 h3{
+        color: #ee5253;
+        font-size: 12px;
+        text-decoration: underline;
+        text-underline-offset: 5px;
+        text-decoration-thickness: 1px;
+        font-weight: normal;
+    }
+    .div33 p{
+        font-size: 10px;
+    }
+    #footer-menu li a{
+        text-decoration: none;
+        color: white;
+        font-size: 10px;
+    }
+    .section33-1{
+        width: 100%;
+        float: left;
+        text-align: center;
+        padding: 10px 20px 10px 20px;
+        box-sizing: border-box;
+    }
+    .section33-1 h2{
+        color: #ee5253;
+        font-size: 18px;
+        text-align: center;
+        text-decoration: underline;
+        text-underline-offset: 10px;
+    }
+    .section33-1 p{
+        color: #222f3e;
+        font-size: 14px;
+        font-weight: bold;
+        text-decoration: none;
+        text-align: center;
+    }
+    #new {
+        margin: 0;
+        box-sizing: border-box;
+        outline: none;
+        background-color: white;
+        padding: 0 7%;
+        margin: 10px auto 10px auto;
+        padding: 8px;
+        padding-top: 0px;
+        box-sizing: border-box;
+    }
+    .wrapper .input_field input[type="text"], .wrapper textarea {
+        border: 1px solid #e0e0e0;
+        width: 90%;
+        padding: 20px;
+    }
+    .wrapper p {
+        text-align: justify;
+        color: #222f3e;
+    }
+    .div33{
+        width: 100%;
+        float: left;
+        padding: 10px 10px;
+        box-sizing: border-box;
+    }
+    .div33 h3{
+        color: #ee5253;
+        text-align: justify;
+        text-decoration: underline;
+        text-underline-offset: 5px;
+        text-decoration-thickness: 1px;
+        font-weight: normal;
+        margin: 5px;
+    }
+    #footer-menu{
+        list-style-type: none;
+        padding: 0;
+    }
+    #footer-menu ul li{
+        padding-bottom: 0px;
+    }
+    #footer-menu li a{
+        text-decoration: none;
+        color: white;
+    }
+}
+
+/* MENU FOR MOBILE */
+@media (max-width: 500px){
+    #navbar ul li {
+        display: inline-block;
+        text-align: center;
+        padding: 10px 0px;
+        padding-right: 5px;
+    }
+    #navbar ul li a{
+       text-align: center;
+       font-size: 14px;
+       font-weight: bold;
+    }
+}

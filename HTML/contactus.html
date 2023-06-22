@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!--favicon-->
+    <link rel="apple-touch-icon" sizes="180x180" href="../images/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="../images/favicon/site.webmanifest">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <!--Fontawesome-->
+    <script src="https://kit.fontawesome.com/5deb517471.js" crossorigin="anonymous"></script>
+
+    <!--style -->
+    <link rel="stylesheet" href="../CSS/style.css">
+
+    <title>Contact Us</title>
+</head>
+<body>
+    <div id="container">
+        <!--Header-->
+        <header>
+            <div id="topbar" class="uni-padding">
+                <p id="tollfree">
+                    Toll Free: 12345-67890
+                </p>
+                <div id="social-icons">
+                    <a href="http://facebook.com"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="http://instagram.com"><i class="fa-brands fa-square-instagram"></i></a>
+                    <a href="http://twitter.com"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="http://whatsap.com"><i class="fa-brands fa-whatsapp"></i></a>
+                </div>
+            </div>
+            <!--logobar-->
+            <div id="logobar" class="uni-padding">
+                <img src="../images/logo.png" alt="">
+            </div>
+            <!--menubar-->
+            <nav id="navbar" class="uni-padding">
+                <ul>
+                    <li><a href="home.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="services.html">SERVICES</a></li>
+                    <li><a href="contactus.html">CONTACT US</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!--contact us-->
+            <div class="wrapper" id="new">
+                <h2>Contact us</h2>
+                <p>Thank you for your interest in Top Truckers! We are always happy to hear from our customers and answer any questions or concerns you may have. If you need to get in touch with us, there are several ways to do so. You can reach out to us by phone, email, or through our online contact form.</p>
+                <p id="fonm-content">You can also fill out this contact form and we will get back to you as soon as possible.</p>
+                <div id="error_message"></div>
+                <form action="" id="myform" onsubmit = "return validate();">
+                <div class="input_field">
+                    <input type="text" placeholder="Name" id="name">
+                </div>
+                <div class="input_field">
+                    <input type="text" placeholder="Email" id="email">
+                </div>
+                <div class="input_field">
+                    <input type="text" placeholder="Phone" id="phone">
+                </div>
+                <div class="input_field">
+                    <textarea placeholder="Message" id="message"></textarea>
+                </div>
+                <div class="btn">
+                    <input type="submit">
+                </div>
+                </form>
+            </div>
+
+        <!--Footer-->
+        <footer>
+            <div id="imp-link" class="uni-padding">
+                <div class="div33">
+                    <h3>About Us</h3>
+                    <p>One of the key features that sets us apart from other transportation companies is our live tracking facility. Our state-of-the-art technology allows you to track your shipments in real-time, giving you complete visibility into the status of your goods at any given moment. With Top Truckers, you can rest assured that your cargo is always in good hands.</p>
+                </div>
+                <div class="div33">
+                    <h3>Important Links</h3>
+                    <ul id="footer-menu">
+                        <li><a href="home.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="services.html">SERVICES</a></li>
+                        <li><a href="contactus.html">CONTACT US</a></li>
+                    </ul>
+                </div>
+                <div class="div33">
+                    <h3>Contact Us</h3>
+                    <p>
+                        Top Truckers,<br>No.23, East Cross Road,<br>Bangalore - 560016<br> Ph: 12345-67890
+                    </p>
+                </div>
+            </div>
+            <div id="copyright">
+                <p>
+                    Copyright &copy; TOP TRUCKERS 2023
+                </p>
+            </div>
+        </footer>
+    </div>
+
+
+    <!--Script-->
+    <script src="../js/script.js"></script>
+
+</body>
+</html>
